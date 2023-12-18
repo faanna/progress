@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<script defer src="js/main.js"></script>
+	</head>
+	<body>
+		<section class="one"></section>
+		<section class="two">
+			<div class="block">
+				<div class="box">
+					<p class="number">
+						<span class="num">80</span>
+						<span class="sub">%</span>
+					</p>
+					<p class="title">의사소통</p>
+				</div>
+				<span class="dots"></span>
+				<svg class="svg">
+					<circle class="circle" cx="90" cy="90" r="80" />
+				</svg>
+			</div>
+			<div class="block">
+				<div class="box">
+					<p class="number">
+						<span class="num">50</span>
+						<span class="sub">%</span>
+					</p>
+					<p class="title">기획력</p>
+				</div>
+				<span class="dots"></span>
+				<svg class="svg">
+					<circle class="circle" cx="90" cy="90" r="80" />
+				</svg>
+			</div>
+			<div class="block">
+				<div class="box">
+					<p class="number">
+						<span class="num">100</span>
+						<span class="sub">%</span>
+					</p>
+					<p class="title">창의력</p>
+				</div>
+				<span class="dots"></span>
+				<svg class="svg">
+					<defs>
+						<linearGradient id="gradientStyle">
+							<stop offset="0%" stop-color="aqua"></stop>
+							<stop offset="100%" stop-color="royalblue"></stop>
+						</linearGradient>
+					</defs>
+					<!-- svg는 xml의 태그입니다. xml의 특징인 계층적 구조를 가집니다
+                z인덱스 같은 레이어순서를 지정하는 방법이 없습니다
+                따라서 반드시 요소가 선언된 순서대로 밑에서 쌓여져 올라가게
+                마크업의 순서가 매우중요합니다
+                 따라서 defs태그가 circle보다 먼저 작성해야합니다
+                defs태그는 나중에 참조해서 사용할 개체를 정의하기 위한
+                태그입니다. 이 요소 내에 정의된 요소는 렌더링되지 않고
+                문서의 구조만을 위해 사용됩니다
+                stop요소는 그라디언트에서 사용할 색상과 위치를 지정함
+             -->
+
+					<circle class="circle" cx="90" cy="90" r="80" />
+				</svg>
+			</div>
+		</section>
+		<section class="three"></section>
+	</body>
+</html>
