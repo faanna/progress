@@ -97,6 +97,7 @@ body {
 				transform: rotate(-90deg);
 				.circle {
 					stroke: url(#gradientStyle);
+					stroke-width: 4px;
 					stroke-dasharray: 503;
 					stroke-dashoffset: 503;
 					animation-duration: 2s;

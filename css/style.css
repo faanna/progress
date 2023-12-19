@@ -99,6 +99,7 @@ body .two .block .svg {
 }
 body .two .block .svg .circle {
   stroke: url(#gradientStyle);
+  stroke-width: 4px;
   stroke-dasharray: 503;
   stroke-dashoffset: 503;
   animation-duration: 2s;
